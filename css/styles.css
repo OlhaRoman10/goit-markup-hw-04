@@ -258,8 +258,7 @@ gap: 8px;
 }
 .soc-wrapper {
     display: flex;
-    
-align-items: center;
+    align-items: center;
 justify-content: center;
 flex-direction: row;
 gap: 24px;
@@ -328,7 +327,13 @@ height: auto;
         padding: 100px 0;
 }
 .footer-container {
+    display: flex;
     
+}
+
+.footer-logo-container {
+    margin-right: 120px;
+
 }
 .footer-logo {
     display: inline-block;
@@ -343,8 +348,23 @@ height: auto;
         color: #f4f4fd;
         max-width: 264px;
 }
+.footer-links {
+   display: block;
+}
+.footer-links .soc-wrapper {
+gap: 16px;
+}
 
-
+.footer-links-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+    padding: 0;
+}
+    
 
 
 
